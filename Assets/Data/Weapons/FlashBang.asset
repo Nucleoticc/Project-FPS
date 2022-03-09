@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93c35b6ab7e86a34eae1865a02ea1739, type: 3}
+  m_Name: FlashBang
+  m_EditorClassIdentifier: 
+  itemIcon: {fileID: 21300000, guid: 5efe9c5f284c8f548907512e8a3d6d9e, type: 3}
+  itemName: FlashBang Grenade
+  modelPrefab: {fileID: 7605403974376323463, guid: ec3fae98187b5364aaf9e062f0834bed, type: 3}
+  FpsWeaponPrefab: {fileID: 1766957826402700, guid: c938f8323b38c604f9cda218778c15d9, type: 3}
+  audioSource: {fileID: 0}
+  isDroppable: 1
+  movementSpeedFactor: 1
+  physicalObjectPrefab: {fileID: 1849819198618100, guid: d75d97a92d18cbb4abc6e7cc4609dcbc, type: 3}
+  killAward: 300
+  throwForce: 160
+  cooldown: 5
+  baseDamage: 0
+  delay: 5
+  explosionVFX: {fileID: 3707641275016922777, guid: 992aa23e84ae69848aad3b3c3ba68cb3, type: 3}
+  explosionRadius: 30

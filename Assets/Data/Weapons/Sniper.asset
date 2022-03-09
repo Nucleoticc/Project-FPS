@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7303e21ac3aba049bfd01d16573c87e, type: 3}
+  m_Name: Sniper
+  m_EditorClassIdentifier: 
+  itemIcon: {fileID: 21300000, guid: 92a6affaf5d451a49a99f6e38eb8af72, type: 3}
+  itemName: Beretta
+  modelPrefab: {fileID: 7605403974376323463, guid: 77042b302c8097c49850d1037a8883be, type: 3}
+  FpsWeaponPrefab: {fileID: 1977984898015220, guid: 30e365fcd1d27fe4c94ab350c0484231, type: 3}
+  audioSource: {fileID: 0}
+  isDroppable: 1
+  movementSpeedFactor: 0.55
+  muzzleFlashPrefab: {fileID: 1271812103628352, guid: f361d7460f63c5d429df965e83f5abf2, type: 3}
+  firingMode: 4
+  gunType: 4
+  killAward: 300
+  recoilResetTime: 0
+  baseDamage: 150
+  range: 60
+  damageFalloffStartFactor: 0.9
+  penetrationPower: 1
+  magSize: 5
+  reserveAmmo: 25
+  reloadSound: {fileID: 0}
+  fireRate: 1.5
+  spread: {x: 0.01, y: 0.01}
+  recoil:
+  - {x: 0, y: 0.2}
